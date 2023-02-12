@@ -1,0 +1,10 @@
+born(akshay, 20,3,1977).
+born(ramya, 2,2,1992).
+born(ayush, 17,3,1995).
+born(vikram, 1,1,2004).
+born(arya, 24,12,2000).
+born(vikas, 30,4,1989).
+born(klaus, 17,3,1993).
+born(abhi, 16,11,1995).
+
+born_before_2000(X,Y) :- born(X,Y=<2000).
